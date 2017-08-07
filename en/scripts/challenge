@@ -1,0 +1,14 @@
+
+var RecaptchaState = {
+    site : '6LeqFcUSAAAAADcz6kt4NGucRb1SLC0vFUUGQmPv',
+    rtl : false,
+    challenge : '03AHJ_Vus53CLlpCnl0eXRRw1QPvDVqGz9HvYkz-Sucujw8QSm5iNEp2qnm3ckfDLKUgkzWg1tshQ2wYKC-P-3bkeZ3um1OA_1wD_ni2K2nyW1VuP1fUwbHgEL2H2gkxW-t8hYDWAIqbHIP_Bw-uRy6DyTEr0H20_zJT2BSDGJDBxpehdq-nF8yF4',
+    is_incorrect : false,
+    programming_error : '',
+    error_message : '',
+    server : 'http://www.google.com/recaptcha/api/',
+    lang : 'ru',
+    timeout : 1800
+};
+
+Recaptcha.challenge_callback();
